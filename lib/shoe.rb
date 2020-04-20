@@ -10,7 +10,6 @@ class Shoe
   else
     BRANDS << brand
     @brand = 3
-    binding.pry 
   end 
 end 
   
