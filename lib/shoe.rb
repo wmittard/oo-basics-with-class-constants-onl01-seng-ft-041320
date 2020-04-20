@@ -9,9 +9,12 @@ class Shoe
     BRANDS << brand
     @brand = 3
   end
-
+  
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+  def unique_brands(brand)
+    unique_brands.each do |brand| 
+      
 end
