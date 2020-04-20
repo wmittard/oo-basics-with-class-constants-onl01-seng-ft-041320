@@ -17,6 +17,7 @@ class Shoe
   def unique_brands(brand)
     brand = []
     brand.each do |brand| 
-      Shoe.new 
-      
+      Shoe.new(brand)
+    end 
+  end 
 end
